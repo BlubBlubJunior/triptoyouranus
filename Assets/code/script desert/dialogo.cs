@@ -10,6 +10,9 @@ public class dialogo : MonoBehaviour
     public string[] lines;
     public float textspeed;
     public GameObject Panel;
+    public GameObject enable;
+    public GameObject enable1;
+    public GameObject enable2;
 
     private int index;
     void Start()
@@ -17,6 +20,9 @@ public class dialogo : MonoBehaviour
         textcomponent.text = string.Empty;
         startDailogo();
         Panel.SetActive(false);
+        enable.SetActive(false);
+        enable1.SetActive(false);
+        enable2.SetActive(false);
     }
 
 
