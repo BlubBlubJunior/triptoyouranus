@@ -3,16 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class button_back : MonoBehaviour
+public class choose : MonoBehaviour
 {
-    
-    public void playgame1()
-    {
-        SceneManager.LoadScene("kamer1");
-    }
-    public void back1()
+    public void nextroom()
     {
         SceneManager.LoadScene("lobby");
-
     }
 }

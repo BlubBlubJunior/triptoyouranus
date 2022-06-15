@@ -14,6 +14,7 @@ public class vraagbutton : MonoBehaviour
     {
         good.SetActive(false);
         enable.SetActive(true);
+        
     }
     
 }

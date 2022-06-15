@@ -4,9 +4,9 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class dialogo : MonoBehaviour
+public class dialogo2 : MonoBehaviour
 {
-    public TextMeshProUGUI textcomponent;
+    [SerializeField] public TextMeshProUGUI textcomponent;
     public string[] lines;
     public float textspeed;
     public GameObject Panel;
@@ -21,11 +21,8 @@ public class dialogo : MonoBehaviour
     {
         textcomponent.text = string.Empty;
         startDailogo();
-        Panel.SetActive(false);
-        
-        character.SetActive(false);
-        name2.SetActive(false);
-        
+ 
+
     }
 
 
@@ -33,21 +30,20 @@ public class dialogo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if(textcomponent.text == lines[index])
+            if (textcomponent.text == lines[index])
             {
                 NextLine();
                 character.SetActive(true);
                 character2.SetActive(false);
-                name1.SetActive(false);
-                name2.SetActive(true);
-
+                name1.SetActive(true);
+                name2.SetActive(false);
             }
             else
             {
                 StopAllCoroutines();
                 textcomponent.text = lines[index];
             }
-            
+
         }
     }
 

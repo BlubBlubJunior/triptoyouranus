@@ -9,7 +9,11 @@ public class dialogos : MonoBehaviour
     public TextMeshProUGUI textcomponent;
     public string[] lines;
     public float textspeed;
-
+    public GameObject next;
+    public GameObject character;
+    public GameObject character2;
+    public GameObject name1;
+    public GameObject name2;
 
 
     private int index;
@@ -17,8 +21,10 @@ public class dialogos : MonoBehaviour
     {
         textcomponent.text = string.Empty;
         startDailogo();
-      
-      
+        character2.SetActive(false);
+        name2.SetActive(false);
+
+
     }
 
 
@@ -29,6 +35,11 @@ public class dialogos : MonoBehaviour
             if (textcomponent.text == lines[index])
             {
                 NextLine();
+                
+                character.SetActive(false);
+                character2.SetActive(true);
+                name1.SetActive(false);
+                name2.SetActive(true);
             }
             else
             {
@@ -58,11 +69,15 @@ public class dialogos : MonoBehaviour
             index++;
             textcomponent.text = string.Empty;
             StartCoroutine(TypeLine());
+            
         }
         else
         {
+            next.SetActive(true);
+            gameObject.SetActive(false);
             
-            
+
+
         }
     }
 }
