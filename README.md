@@ -1,3 +1,5 @@
+## pong minigame(https://github.com/ErdemTan12/pong-minigame-SDGA/tree/main)
+
 git controls
 
 git init zorgt er voor dat een git in je map staat.
