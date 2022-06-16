@@ -1,4 +1,4 @@
-## pong minigame(https://github.com/ErdemTan12/pong-minigame-SDGA/tree/main)
+## [pong minigame](https://github.com/ErdemTan12/pong-minigame-SDGA/tree/main) van Erdem
 
 git controls
 
