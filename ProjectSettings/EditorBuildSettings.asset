@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cell.unity
     guid: 1e679786c61c0ed4b81fe8f2e30eb95c
+  - enabled: 1
+    path: Assets/Scenes/pong.unity
+    guid: 12458ddbc24bbce4693a24b05f4da75f
+  - enabled: 1
+    path: Assets/Scenes/esc.unity
+    guid: 50ab993b77530924283c5440fb4f6a30
   m_configObjects: {}

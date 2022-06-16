@@ -1325,7 +1325,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 72.5708, y: 0, z: 0, w: 72.59275}
+  m_margin: {x: 72.5708, y: 0, z: 221.56812, w: 57.039467}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1391,8 +1391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8413e20a3752df44b8d2e4ed7184f886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  good: {fileID: 1670291571}
-  enable: {fileID: 0}
+  good: {fileID: 1509192746}
+  enable: {fileID: 1860773190}
 --- !u!114 &474390649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5587,7 +5587,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1860773190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67aa973141fd98a409f5bb7665a21487, type: 3}
+  m_Script: {fileID: 11500000, guid: 423511388a7eef84aae7cee265dbecee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1862024203
@@ -6378,8 +6378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8413e20a3752df44b8d2e4ed7184f886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  good: {fileID: 1208580396}
-  enable: {fileID: 0}
+  good: {fileID: 1509192746}
+  enable: {fileID: 1860773190}
 --- !u!114 &2038891817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6403,7 +6403,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -6922,8 +6922,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8413e20a3752df44b8d2e4ed7184f886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  good: {fileID: 1862024203}
-  enable: {fileID: 0}
+  good: {fileID: 1509192746}
+  enable: {fileID: 1862024203}
 --- !u!114 &2108838019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6947,7 +6947,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
