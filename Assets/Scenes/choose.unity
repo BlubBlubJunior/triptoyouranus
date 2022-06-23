@@ -178,8 +178,10 @@ MonoBehaviour:
   left: {fileID: 477890364}
   right: {fileID: 1018800274}
   main: {fileID: 1411026950}
-  wayright: {fileID: 986926931}
+  wayright: {fileID: 716930266}
   wayleft: {fileID: 556668213}
+  leftenable: {fileID: 0}
+  rightenable: {fileID: 986926931}
 --- !u!114 &155478337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,11 +407,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50a274d738b588d47a909bf60ce9ddf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left: {fileID: 1395727385}
-  right: {fileID: 1411026950}
-  main: {fileID: 477890364}
+  left: {fileID: 1018800274}
+  right: {fileID: 477890364}
+  main: {fileID: 1395727385}
   wayright: {fileID: 1238498888}
-  wayleft: {fileID: 1925065800}
+  wayleft: {fileID: 472008215}
+  leftenable: {fileID: 1925065800}
+  rightenable: {fileID: 0}
 --- !u!114 &290846547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,8 +659,10 @@ MonoBehaviour:
   left: {fileID: 1018800274}
   right: {fileID: 477890364}
   main: {fileID: 1395727385}
-  wayright: {fileID: 1238498888}
+  wayright: {fileID: 290846544}
   wayleft: {fileID: 1925065800}
+  leftenable: {fileID: 0}
+  rightenable: {fileID: 1238498888}
 --- !u!114 &472008218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,8 +894,10 @@ MonoBehaviour:
   left: {fileID: 1395727385}
   right: {fileID: 1411026950}
   main: {fileID: 477890364}
-  wayright: {fileID: 290846544}
+  wayright: {fileID: 716930266}
   wayleft: {fileID: 472008215}
+  leftenable: {fileID: 0}
+  rightenable: {fileID: 290846544}
 --- !u!114 &556668216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,7 +1127,9 @@ MonoBehaviour:
   right: {fileID: 1018800274}
   main: {fileID: 1411026950}
   wayright: {fileID: 986926931}
-  wayleft: {fileID: 556668213}
+  wayleft: {fileID: 155478334}
+  leftenable: {fileID: 556668213}
+  rightenable: {fileID: 0}
 --- !u!114 &716930269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,7 +1583,9 @@ MonoBehaviour:
   right: {fileID: 1395727385}
   main: {fileID: 1018800274}
   wayright: {fileID: 290846544}
-  wayleft: {fileID: 472008215}
+  wayleft: {fileID: 556668213}
+  leftenable: {fileID: 472008215}
+  rightenable: {fileID: 0}
 --- !u!114 &986926934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2072,7 +2084,9 @@ MonoBehaviour:
   right: {fileID: 1411026950}
   main: {fileID: 477890364}
   wayright: {fileID: 716930266}
-  wayleft: {fileID: 155478334}
+  wayleft: {fileID: 1925065800}
+  leftenable: {fileID: 155478334}
+  rightenable: {fileID: 0}
 --- !u!114 &1238498891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2693,8 +2707,10 @@ MonoBehaviour:
   left: {fileID: 1411026950}
   right: {fileID: 1395727385}
   main: {fileID: 1018800274}
-  wayright: {fileID: 716930266}
+  wayright: {fileID: 1238498888}
   wayleft: {fileID: 155478334}
+  leftenable: {fileID: 0}
+  rightenable: {fileID: 716930266}
 --- !u!114 &1925065803
 MonoBehaviour:
   m_ObjectHideFlags: 0

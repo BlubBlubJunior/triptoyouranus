@@ -9,6 +9,8 @@ public class characterchoose : MonoBehaviour
     public GameObject main;
     public GameObject wayright;
     public GameObject wayleft;
+    public GameObject leftenable;
+    public GameObject rightenable;
     
     public void nextleft()
     {
@@ -16,7 +18,7 @@ public class characterchoose : MonoBehaviour
         main.SetActive(false);
         gameObject.SetActive(false);
         wayleft.SetActive(true);
-       
+        
     }
     public void nextright()
     {
@@ -24,14 +26,16 @@ public class characterchoose : MonoBehaviour
         main.SetActive(false);
         gameObject.SetActive(false);
         wayright.SetActive(true);
-        
+        wayleft.SetActive(false);
+        leftenable.SetActive(true);
     }
     public void backmain()
     {
-        right.SetActive(false);
+        right.SetActive(true);
         left.SetActive(false);
         gameObject.SetActive(false);
         
+
     }
 
 }

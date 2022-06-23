@@ -395,13 +395,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 340799773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f168be6a589a51498e8d0a73fdb2ada, type: 3}
+  m_Script: {fileID: 11500000, guid: 94f4ae4da74658b42be2fc0fd5ed55e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isplayer1: 0
-  speed: 5
+  bal: {fileID: 0}
+  speed: 15
+  startPosition: {x: 0, y: 0}
   rb: {fileID: 340799774}
-  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &371028737
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,10 +778,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7c06295eae3cc4aa2dbfcb56931604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   speedup: 0
+  speed: 5
   rb: {fileID: 610513337}
-  startPosition: {x: 0, y: 0, z: 0}
+  startPosition: {x: 0, y: 0}
 --- !u!1 &633951518
 GameObject:
   m_ObjectHideFlags: 0

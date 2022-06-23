@@ -14,9 +14,19 @@ public class gamebutton : MonoBehaviour
     {
         pannel.SetActive(true);
     }
-    public void merorie()
+    public void pong()
     {
         SceneManager.LoadScene("pong");
+
+    }
+    public void mario()
+    {
+        SceneManager.LoadScene("mario");
+
+    }
+    public void spacerock()
+    {
+        SceneManager.LoadScene("spacerockgame");
 
     }
 }
