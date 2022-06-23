@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d1a6a8c500e43458c819bb3694427c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isplayergoal: 0
+  isPlayer1Goal: 1
 --- !u!65 &70602732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 699118040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 258ac745a3b53ac46b7931162798faec, type: 3}
+  m_Script: {fileID: 11500000, guid: eb2bef3f1eacc4241bb950763c1bc36f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1086796681}
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d1a6a8c500e43458c819bb3694427c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isplayergoal: 0
+  isPlayer1Goal: 0
 --- !u!65 &750018722
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1035,7 +1035,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086796681}
-  m_Material: {fileID: 13400000, guid: 48650172724d72c40b523f160bd2ab63, type: 2}
+  m_Material: {fileID: 13400000, guid: 97398a4e2da203544b83b2e05f6b869b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1116,10 +1116,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639d078c781fb2a458ebfec7273ff491, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedup: 0
-  speed: 0
-  rb: {fileID: 0}
-  startPosition: {x: 0, y: 0}
+  speed: 15
+  rb: {fileID: 1086796682}
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1317788415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1533,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b16857a1caab84a9c7d6af3cab0b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bal: {fileID: 1086796682}
+  speed: 850
+  startPosition: {x: 0, y: 0, z: 0}
+  rb: {fileID: 1792346920}
 --- !u!1 &2009120728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,12 +1568,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2009120728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f168be6a589a51498e8d0a73fdb2ada, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bd355194bec9a74798bf46f44dbf987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isplayer1: 0
-  speed: 0
-  rb: {fileID: 0}
+  isplayer1: 1
+  speed: 20
+  rb: {fileID: 2009120730}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!54 &2009120730
 Rigidbody:
