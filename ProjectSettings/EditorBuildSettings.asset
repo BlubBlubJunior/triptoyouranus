@@ -6,42 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main manu.unity
+    path: Assets/Scenes/ui scenes/main manu.unity
     guid: 18fbf32f62c4ac441b10f18238bac164
   - enabled: 1
     path: Assets/Scenes/text.unity
     guid: a14409812bd957343bb5c504172088d8
   - enabled: 1
-    path: Assets/Scenes/lobby.unity
+    path: Assets/Scenes/chetlays scens/lobby.unity
     guid: fba8bd11f8f4d544e9889b6217ea13c5
   - enabled: 1
-    path: Assets/Scenes/kamer1.unity
+    path: Assets/Scenes/chetlays scens/kamer1.unity
     guid: 42a75c2444440bf47b04a7bd3433c6e5
   - enabled: 1
-    path: Assets/Scenes/kamer2.unity
+    path: Assets/Scenes/chetlays scens/kamer2.unity
     guid: 3c889c0a8ccb4a64582e9a8efe3be9f8
   - enabled: 1
-    path: Assets/Scenes/kamer3.unity
+    path: Assets/Scenes/chetlays scens/kamer3.unity
     guid: ee58dbde801ddbc4a8f32276688e083b
   - enabled: 1
-    path: Assets/Scenes/options.unity
+    path: Assets/Scenes/ui scenes/options.unity
     guid: 3e60049fcb1da33499760c0b1c95bbc5
   - enabled: 1
-    path: Assets/Scenes/choose.unity
+    path: Assets/Scenes/useless but fun/choose.unity
     guid: 08fc7ccecb0497a448dd879abcb42c90
   - enabled: 1
-    path: Assets/Scenes/mario.unity
+    path: Assets/Scenes/useless but fun/mario.unity
     guid: 652c14d00e2865d4db37c3113fd98484
   - enabled: 1
-    path: Assets/Scenes/cell.unity
+    path: Assets/Scenes/ui scenes/cell.unity
     guid: 1e679786c61c0ed4b81fe8f2e30eb95c
   - enabled: 1
-    path: Assets/Scenes/pong.unity
-    guid: 12458ddbc24bbce4693a24b05f4da75f
-  - enabled: 1
-    path: Assets/Scenes/esc.unity
+    path: Assets/Scenes/ui scenes/esc.unity
     guid: 50ab993b77530924283c5440fb4f6a30
   - enabled: 1
     path: Assets/Scenes/spacerockgame.unity
     guid: 27e84e8f6c05fc342bd90a74cd68cae5
+  - enabled: 1
+    path: Assets/Scenes/pongpong.unity
+    guid: 1b2f6e947ddc419478d35d5767e52bc1
+  - enabled: 1
+    path: Assets/Scenes/pong menu.unity
+    guid: 71b7002d2dbab5c4caa33d0dac01c5c1
+  - enabled: 1
+    path: Assets/Scenes/spacemenu.unity
+    guid: 15956388fd51e5f4994a0613d331e71f
   m_configObjects: {}

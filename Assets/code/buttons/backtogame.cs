@@ -9,5 +9,9 @@ public class backtogame : MonoBehaviour
     public void backgame()
     {
         SceneManager.LoadScene("lobby");
-    } 
+    }
+    public void startgame()
+    {
+        SceneManager.LoadScene("spacerockgame");
+    }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class GameManager : MonoBehaviour
         player1score++;
         player1text.GetComponent<TextMeshProUGUI>().text = player1score.ToString();
         ResetPosition();
+        
     }
     public void Player2Scored()
     {

@@ -6,27 +6,51 @@ using UnityEngine.SceneManagement;
 public class gamebutton : MonoBehaviour
 {
     public GameObject pannel;
+    public GameObject chetley;
+    public GameObject text2;
+    public GameObject game;
+    public GameObject rockofpong;
     private void Start()
     {
-        pannel.SetActive(false);
+        
     }
     public void games()
     {
         pannel.SetActive(true);
+        
     }
     public void pong()
     {
-        SceneManager.LoadScene("pong");
+        SceneManager.LoadScene("pong menu");
 
     }
-    public void mario()
+    public void text()
     {
-        SceneManager.LoadScene("mario");
+        text2.SetActive(true);
+        chetley.SetActive(false);
+        game.SetActive(false);
 
     }
     public void spacerock()
     {
-        SceneManager.LoadScene("spacerockgame");
+        SceneManager.LoadScene("spacemenu");
 
+    }
+    public void choose()
+    {
+        rockofpong.SetActive(true);
+        game.SetActive(false);
+    }
+    public void chetlayquestions()
+    {
+        SceneManager.LoadScene("kamer1");
+    }
+    public void chetlayquestions2()
+    {
+        SceneManager.LoadScene("kamer2");
+    }
+    public void chetlayquestions3()
+    {
+        SceneManager.LoadScene("kamer3");
     }
 }
