@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ui scenes/main manu.unity
     guid: 18fbf32f62c4ac441b10f18238bac164
   - enabled: 1
-    path: Assets/Scenes/text.unity
+    path: Assets/Scenes/ui scenes/text.unity
     guid: a14409812bd957343bb5c504172088d8
   - enabled: 1
     path: Assets/Scenes/chetlays scens/lobby.unity
@@ -39,15 +39,63 @@ EditorBuildSettings:
     path: Assets/Scenes/ui scenes/esc.unity
     guid: 50ab993b77530924283c5440fb4f6a30
   - enabled: 1
-    path: Assets/Scenes/spacerockgame.unity
+    path: Assets/Scenes/games/spacerockgame.unity
     guid: 27e84e8f6c05fc342bd90a74cd68cae5
   - enabled: 1
-    path: Assets/Scenes/pongpong.unity
+    path: Assets/Scenes/games/pongpong.unity
     guid: 1b2f6e947ddc419478d35d5767e52bc1
   - enabled: 1
-    path: Assets/Scenes/pong menu.unity
+    path: Assets/Scenes/games/pong menu.unity
     guid: 71b7002d2dbab5c4caa33d0dac01c5c1
   - enabled: 1
-    path: Assets/Scenes/spacemenu.unity
+    path: Assets/Scenes/games/spacemenu.unity
     guid: 15956388fd51e5f4994a0613d331e71f
+  - enabled: 1
+    path: Assets/Scenes/delhia scenes/delhia1.unity
+    guid: c3f3fbd387afd034a944b219b576a9e4
+  - enabled: 1
+    path: Assets/Scenes/delhia scenes/delhia2.unity
+    guid: ed956165b4032e54ba050707a4b8022c
+  - enabled: 1
+    path: Assets/Scenes/delhia scenes/delhia3.unity
+    guid: 826eabacf41d481428b104d9e6877205
+  - enabled: 1
+    path: Assets/Scenes/delhia scenes/delhia4.unity
+    guid: 9cefcc83ae1a35d4098a54b6010d320a
+  - enabled: 1
+    path: Assets/Scenes/delhia scenes/delhia5.unity
+    guid: d6dbefc917618db43b7c60bc80bf059e
+  - enabled: 1
+    path: Assets/Scenes/chetlays scens/chatleylast.unity
+    guid: 06dec55a06b36104e9f5423320bca1f3
+  - enabled: 1
+    path: Assets/Scenes/gweneth scenes/gweneth1.unity
+    guid: b5026d20fc395e141af07de0e9fad35d
+  - enabled: 1
+    path: Assets/Scenes/gweneth scenes/gweneth2.unity
+    guid: cccee2b548d67684eb97de53364ae9d4
+  - enabled: 1
+    path: Assets/Scenes/gweneth scenes/gweneth3.unity
+    guid: 76f9eb28cd070d84e9927f5419c8feed
+  - enabled: 1
+    path: Assets/Scenes/gweneth scenes/gweneth4.unity
+    guid: 155c9ef8bbb602f4dbc8702fa81f310a
+  - enabled: 1
+    path: Assets/Scenes/gweneth scenes/gweneth5.unity
+    guid: 149e8b8191424b946be5dcc173794621
+  - enabled: 1
+    path: Assets/Scenes/ranni scenes/ranni1.unity
+    guid: a9beee7004c9b584aa349f5f83fb0008
+  - enabled: 1
+    path: Assets/Scenes/ranni scenes/ranni2.unity
+    guid: 3626fc347627969418934fc7710cbbbb
+  - enabled: 1
+    path: Assets/Scenes/ranni scenes/ranni3.unity
+    guid: a715332700f8a4e40941ed6be69458f5
+  - enabled: 1
+    path: Assets/Scenes/ranni scenes/ranni4.unity
+    guid: 01af98df19b18524c8c702477a17d928
+  - enabled: 1
+    path: Assets/Scenes/ranni scenes/ranni5.unity
+    guid: db9add99969ae4449bb0a6847871d4b6
   m_configObjects: {}

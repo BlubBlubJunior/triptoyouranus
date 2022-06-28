@@ -53,4 +53,56 @@ public class gamebutton : MonoBehaviour
     {
         SceneManager.LoadScene("kamer3");
     }
+    public void chetlayquestions4()
+    {
+        SceneManager.LoadScene("chatleylast");
+    }
+    public void dalhiaquestions()
+    {
+        SceneManager.LoadScene("dalhia2");
+    }
+    public void dalhiaquestions2()
+    {
+        SceneManager.LoadScene("dalhia3");
+    }
+    public void daliaquestions3()
+    {
+        SceneManager.LoadScene("dalhia4");
+    }
+    public void daliaquestions4()
+    {
+        SceneManager.LoadScene("dalhia5");
+    }
+    public void gwenethquestions1()
+    {
+        SceneManager.LoadScene("gweneth2");
+    }
+    public void gwenethquestions2()
+    {
+        SceneManager.LoadScene("gweneth3");
+    }
+    public void gwenethquestions3()
+    {
+        SceneManager.LoadScene("gweneth4");
+    }
+    public void gwenethquestions4()
+    {
+        SceneManager.LoadScene("gweneth5");
+    }
+    public void ranni1hquestions4()
+    {
+        SceneManager.LoadScene("ranni2");
+    }
+    public void ranni2hquestions4()
+    {
+        SceneManager.LoadScene("ranni3");
+    }
+    public void ranni3hquestions4()
+    {
+        SceneManager.LoadScene("ranni4");
+    }
+    public void ranni4hquestions4()
+    {
+        SceneManager.LoadScene("ranni5");
+    }
 }
