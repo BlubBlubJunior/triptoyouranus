@@ -5,16 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class nex : MonoBehaviour
 {
+    public int timer = 30;
     // Start is called before the first frame update
     void Start()
     {
-        SceneManager.LoadScene("cell");
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        timer -= 1; 
+        if(timer < 1)
+        {
+            SceneManager.LoadScene("cell");
+        }
     }
 }

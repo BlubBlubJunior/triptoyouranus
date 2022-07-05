@@ -9,4 +9,16 @@ public class choose : MonoBehaviour
     {
         SceneManager.LoadScene("lobby");
     }
+    public void ranni()
+    {
+        SceneManager.LoadScene("ranni1");
+    }
+    public void dalhia()
+    {
+        SceneManager.LoadScene("delhia1");
+    }
+    public void gweneth()
+    {
+        SceneManager.LoadScene("gweneth1");
+    }
 }

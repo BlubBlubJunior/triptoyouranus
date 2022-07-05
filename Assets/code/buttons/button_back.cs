@@ -8,11 +8,7 @@ public class button_back : MonoBehaviour
     
     public void playgame1()
     {
-        SceneManager.LoadScene("kamer1");
+        SceneManager.LoadScene("cutscene");
     }
-    public void back1()
-    {
-        SceneManager.LoadScene("lobby");
-
-    }
+    
 }

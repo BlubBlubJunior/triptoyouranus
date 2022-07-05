@@ -17,6 +17,7 @@ public class gamebutton : MonoBehaviour
     public void games()
     {
         pannel.SetActive(true);
+        game.SetActive(false);
         
     }
     public void pong()

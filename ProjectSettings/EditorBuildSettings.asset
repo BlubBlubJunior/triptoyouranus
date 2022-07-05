@@ -98,4 +98,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ranni scenes/ranni5.unity
     guid: db9add99969ae4449bb0a6847871d4b6
+  - enabled: 1
+    path: Assets/Scenes/ui scenes/cutscene.unity
+    guid: 801d9d4a9d39ade4a9eefbd204d38d8a
+  - enabled: 1
+    path: Assets/Scenes/ending.unity
+    guid: c5a7c735853ef5147ac4531e57ffd217
   m_configObjects: {}

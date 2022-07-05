@@ -1288,7 +1288,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d98ca41cba03d0f4a98be16fc1822bda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 21db4219d7d52014abf187a313b3af9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1796,7 +1796,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d98ca41cba03d0f4a98be16fc1822bda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 21db4219d7d52014abf187a313b3af9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3208,8 +3208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 32.64, y: 0.7}
+  m_SizeDelta: {x: 65.28, y: 12.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784762632
 MonoBehaviour:
@@ -3589,7 +3589,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d42db69916d7ac43a810cd873508b49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 905260a2aa129db49a0e4475dc463317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4022,7 +4022,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d98ca41cba03d0f4a98be16fc1822bda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 21db4219d7d52014abf187a313b3af9b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4238,7 +4238,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d42db69916d7ac43a810cd873508b49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 905260a2aa129db49a0e4475dc463317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4743,7 +4743,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d42db69916d7ac43a810cd873508b49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 905260a2aa129db49a0e4475dc463317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5120,7 +5120,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d42db69916d7ac43a810cd873508b49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 905260a2aa129db49a0e4475dc463317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5336,7 +5336,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0d42db69916d7ac43a810cd873508b49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 905260a2aa129db49a0e4475dc463317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5491,6 +5491,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1822939896}
   - component: {fileID: 1822939897}
+  - component: {fileID: 1822939899}
+  - component: {fileID: 1822939898}
   m_Layer: 0
   m_Name: next
   m_TagString: Untagged
@@ -5498,20 +5500,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &1822939896
-Transform:
+--- !u!224 &1822939896
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822939895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -471.60123, y: 63.91333, z: -100.23308}
+  m_LocalPosition: {x: 0, y: 0, z: -100.23308}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 528269259}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015259, y: 0.0012794}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822939897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5524,6 +5531,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67aa973141fd98a409f5bb7665a21487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 30
+--- !u!114 &1822939898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822939895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1822939899
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822939895}
+  m_CullTransparentMesh: 1
 --- !u!1 &1886311602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6153,15 +6199,15 @@ RectTransform:
   m_GameObject: {fileID: 2121285850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 260888531}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.96883, y: -25.1}
-  m_SizeDelta: {x: 120, y: 30}
+  m_AnchoredPosition: {x: -6.0457234, y: -15.273204}
+  m_SizeDelta: {x: 123.84622, y: 49.6536}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2121285852
 MonoBehaviour:
@@ -6185,11 +6231,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 102
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
